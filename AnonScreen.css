@@ -1,0 +1,122 @@
+.login {
+  background: linear-gradient(#ff8080,#ffd480);
+  height: 480px;
+  width: 350px;
+  margin: auto;
+  border-style: double;
+  border-color: #ff8080;
+  border-width: thick;
+  box-shadow: 10px 10px 15px #ff9999;
+}
+.welcome-user {
+  color: #ffffb3;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  text-shadow: 3px 3px 5px #ffcccc;
+}
+.user-icon {
+  background: white;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin: auto;
+  border-color: #ffd480;
+  border-style: solid;
+  box-shadow: 0px 8px 2px #8c8c8c;
+}
+.user-icon__head {
+  background: #ff6666;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 7px 6px 3px grey;
+}
+.user-icon__body {
+  background: #ff6666;
+  height: 65px;
+  width: 65px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  margin-left: 32px;
+  margin-top: -10px;
+  box-shadow: 7px 6px 3px grey;
+}
+.user-info #username, #password{
+  display: inline-flex;
+  margin-top: 50px;
+  font-size: 15px;
+
+}
+#username {
+  height: 25px;
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+#password {
+  height: 25px;
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+ .labels__username{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -62px;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px #ffb3b3;
+}
+.labels__password {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px #ffb3b3;
+}
+.signin-btn #signin {
+  height: 50px;
+  width: 100px;
+  background-color: #ffb3b3;
+  box-shadow: 0px 8px 1px #8c8c8c;
+  border-style: solid;
+  border-color: #ffd480;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 35px;
+  font-weight: bold;
+}
+#signin:hover {
+  text-shadow: 2px 2px 5px #b3003b;
+  font-size: 22px;
+}
+#signin:active {
+  transform: translateY(2px);
+  font-weight: bold;
+  box-shadow: 0px 4px 2px #4d4d4d;
+}
+.forgotten-pass #nopass{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  float: right;
+  margin-top: -30px;
+  margin-right: 20px;
+  color: #ff4d4d;
+}
+#nopass:hover {
+  text-decoration: underline;
+  font-size: 16px;
+}
